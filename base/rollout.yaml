@@ -23,7 +23,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:v7
+      - image: schoolofdevops/vote:v8
         name: vote
         imagePullPolicy: Always
         resources: 
