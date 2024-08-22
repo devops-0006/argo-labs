@@ -4,3 +4,7 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
+images:
+- name: schoolofdevops/vote
+  newName: initcron/vote
+  newTag: e863922
